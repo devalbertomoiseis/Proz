@@ -1,0 +1,6 @@
+git init
+git status
+git add .
+git add --all
+git add A 
+git commit -m "arquivo"
