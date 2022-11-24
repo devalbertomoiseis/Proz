@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <label for="name">Nome:</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        required
+        minlength="4"
+        maxlength="8"
+        size="10"
+      />
+    <br>
+    <label for="senha">Senha:</label>
+      <input
+        type="password"
+        id="senha"
+        name="senha"
+        required
+        minlength="4"
+        maxlength="8"
+        size="10"
+      />
+    <br>
+      
+      <label for="email"></label>E-mail:</label>
+      <input
+        type="email"
+        id="email"
+        size="30"
+        required
+      />
+      <br>
+      <label for="phone">Telefone:</label>
+      <input
+        type="tel"
+        id="phone"
+        name="phone"
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+        required
+      />
+      <br>
+      <small>Formato: 123-456-7890</small>
+      <br>
+      <fieldset>
+        <legend>Selecione uma Seleção</legend>
+        <input type="checkbox" name="brasil" id="selecao"> 
+        <label for="brasil">Brasil</label><br>
+
+        <input type="checkbox" name="servia" id="selecao"> 
+        <label for="servia">Sérvia</label><br>
+
+        <input type="checkbox" name="franca" id="selecao"> 
+        <label for="franca">França</label><br>
+
+        <input type="checkbox" name="Inglaterra" id="selecao"> 
+        <label for="Inglaterra">Inglaterra</label><br>
+        <input type="checkbox" name="italia" id="selecao"> 
+        <label for="italia">Itália</label><br>
+
+        <input type="checkbox" name="italia" id="selecao"> 
+        <label for="selecao">México</label><br>
+
+      </fieldset>
+    </form>
+  </body>
+</html>
