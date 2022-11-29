@@ -1,0 +1,25 @@
+body{
+    background: rgba(74, 52, 170, 0.678);
+}
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 2%;
+    text-align: center;
+}
+
+h2{
+    color: #fff;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+p{
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 0.1rem;
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
