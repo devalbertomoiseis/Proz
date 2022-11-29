@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+h1::after{
+    content: "";
+    display: block;
+    background: #000;
+    height: 4px;
+    width: 80px;
+    margin: 10px auto;
+}
+
+main p {
+    max-width: 600px;
+    margin: 40px auto 20px auto;
+    align-items: center;
+}
+
+.button{
+    text-align: center;
+    padding: 10px 30px;
+    margin: 0 auto;
+    border-radius: 4px;
+    background: #000;
+    color: #fff;
+}
+.button:hover{
+
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+
+
