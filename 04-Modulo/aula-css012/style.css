@@ -32,4 +32,14 @@ a{
     font-weight: 300;
     text-decoration: none;
     color: #ff7f00;
+    
+}
+
+.borda{
+    border: 1px solid #4fd15a;
+}
+
+.cor-final + p{
+    color: #f1f168;
+    margin-top: 32px;
 }
