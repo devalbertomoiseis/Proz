@@ -1,0 +1,27 @@
+.background{
+    background-image: url("./Screenshot.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    max-width: 100%;
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px 2%;
+}
+
+.container h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+.container p{
+    max-width: 600px;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0 auto;
+
+}
