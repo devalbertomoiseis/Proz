@@ -1,0 +1,118 @@
+:root {
+  --cor-01: #593493;
+  --cor-02: #ff7f00;
+  --cor-03: #ffffff;
+  --cor-04: #ffd800;
+}
+
+/* Header*/
+header {
+  background-color: var(--cor-01);
+}
+
+header section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 0.2;
+  text-transform: uppercase;
+  color: var(--cor-03);
+}
+
+header section nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+header section nav ul li a {
+  color: var(--cor-03);
+  padding: 12px;
+}
+
+header section nav ul li a.btn-principal {
+  background-color: var(--cor-02);
+  border-radius: 6px;
+  padding: 12px 20px;
+}
+
+@media (max-width: 767px) {
+  header section {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    gap: 20px;
+  }
+}
+/* main */
+main {
+  margin: 80px 0;
+}
+
+main .container {
+  flex-direction: column;
+}
+
+main h1 {
+  max-width: 600px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+main article p {
+  margin: 40px 0;
+  max-width: 500px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+main article figure img {
+  max-width: 100%;
+  width: 600px;
+  max-height: 100%;
+  height: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+main article figure figcaption {
+  text-align: center;
+  padding: 10px 0;
+}
+@media (max-width: 767px) {
+  main h1 {
+    margin: 20px auto;
+  }
+  main article figure img {
+    width: 350px;
+    height: 350px;
+  }
+}
+/* footer */
+footer {
+  background-color: var(--cor-01);
+  padding: 20px 0;
+}
+footer div {
+  justify-content: space-between;
+}
+footer div p {
+  text-align: center;
+  color: var(--cor-03);
+}
+footer div p a {
+  margin-left: 20px;
+  color: var(--cor-03);
+}
+.logo-link {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.2;
+  text-transform: uppercase;
+  color: var(--cor-02);
+}
