@@ -116,3 +116,8 @@ footer div p a {
   text-transform: uppercase;
   color: var(--cor-02);
 }
+/* Pantos.html */
+main article ul {
+  text-align: center;
+  margin: 20px 0;
+}

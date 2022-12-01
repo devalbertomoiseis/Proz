@@ -30,3 +30,11 @@ h1 {
   font-weight: 300px;
   letter-spacing: 0.2;
 }
+
+p {
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  font-weight: 400px;
+  letter-spacing: 0.2;
+}
