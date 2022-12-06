@@ -1,7 +1,0 @@
-Criar Pasta: mkdir treinamento-proz
-cd treinamento-proz
-git init
-git config --global user.name "albertomoiseis"
-git config --global user.email "albertomoiseis@gmail.com"
-git status 
-git clone git@github.com:devalbertomoiseis/Proz.git
