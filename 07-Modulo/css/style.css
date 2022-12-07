@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 30px 4%;
+  color: #fff;
+}
+
+.logo {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+}
+
+.logo strong {
+  color: #ff7f00;
+}
+
+header {
+  background-color: #593493;
+}
+
+header section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header section nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+header section nav ul li a {
+  padding: 14px 0;
+  cursor: pointer;
+}
+
+header section nav ul li a:hover {
+  color: #ff7f00;
+  transition: 0.8s;
+}
+
+.btn-principal {
+  background: #ff7f00;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 10px;
+}
+
+.btn-principal:hover {
+  color: #ff7f00;
+  background: #fff;
+  transition: 0.8s;
+}
+
+/* Main */
+main section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#contato {
+  flex: 1;
+}
+
+.maps {
+  flex: 2;
+}
+
+#contato p {
+  color: #000;
+  margin: 20px auto;
+}
+
+#contato strong {
+  color: #000;
+}
+
+main h1 {
+  color: #583493ad;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+main h1:after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 4px;
+  background: #583493ad;
+  margin: 14px auto;
+}
+
+@media (max-width: 600px) {
+  main section {
+    flex-direction: column;
+    text-align: center;
+    justify-items: center;
+    gap: 20px;
+  }
+  .maps {
+    flex: 1;
+  }
+}
